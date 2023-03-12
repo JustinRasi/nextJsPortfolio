@@ -4,22 +4,17 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
-const Main = () => {
-  //test
+export default function Main() {
   return (
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
-            LET&#39;S BUILD SOMETHING TOGETHER
-          </p>
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#5651e5]'> Clint</span>
+            Hi, I&#39;m <span className='text-[#5651e5]'> Justin</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
+          <h1 className='py-2 text-gray-700'>A Learning Software Developer.</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I’m focused on building responsive front-end web applications
-            integrating back-end technologies.
+            Currently working at ZKB with focus on Java and custom Frameworks. But also working with Web-Technologies.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
@@ -56,5 +51,3 @@ const Main = () => {
     </div>
   );
 };
-
-export default Main;

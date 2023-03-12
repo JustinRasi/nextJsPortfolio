@@ -21,7 +21,7 @@ const Contact = () => {
             <div className='lg:p-4 h-full '>
               <div>
                 <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
+                  className='rounded-xl'
                   src={ContactImg}
                   alt='/'
                 />
@@ -82,18 +82,14 @@ const Contact = () => {
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
-                    <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
-                      type='text'
-                      name='name'
-                    />
+                    <input className='border-2 rounded-lg p-3 flex border-zinc-400 bg-zinc-300' type='text' name='name'/>
                   </div>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>
                       Phone Number
                     </label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      className='border-2 rounded-lg p-3 flex border-zinc-400 bg-zinc-300'
                       type='text'
                       name='phone'
                     />
@@ -102,7 +98,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Email</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300'
+                    className='border-2 rounded-lg p-3 flex border-zinc-400 bg-zinc-300'
                     type='email'
                     name='email'
                   />
@@ -110,7 +106,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Subject</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300'
+                    className='border-2 rounded-lg p-3 flex border-zinc-400 bg-zinc-300'
                     type='text'
                     name='subject'
                   />
@@ -118,7 +114,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Message</label>
                   <textarea
-                    className='border-2 rounded-lg p-3 border-gray-300'
+                    className='border-2 rounded-lg p-3 border-zinc-400 bg-zinc-300'
                     rows='10'
                     name='message'
                   ></textarea>
